@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Form</title>
+    <link rel="stylesheet" href="./accesible.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <!-- Circular Progress -->
+        <div class="progress-section">
+            <div class="circular-progress">
+                <span class="progress-value">65%</span>
+            </div>
+            <br>
+            <p>Profile Completeness</p>
+        </div>
+
+        <!-- Form Fields -->
+        <form action="#" method="post" class="form-ui">
+            <!-- Full Name Field -->
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full-name" placeholder="What should we call you?" required>
+            
+            <!-- Email Field -->
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" value="john@doe.com" class="error" required>
+            <small>Email is already taken</small>
+            
+            <!-- Password Field -->
+            <label for="password">Enter Password</label>
+            <input type="password" id="password" name="password" placeholder="xxxxxxx" required>
+            <button type="button" class="toggle-password">👁️</button>
+            
+            <!-- Confirm Password Field -->
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="xxxxxxx" required>
+            <button type="button" class="toggle-password">👁️</button>
+
+            <!-- Submit Button -->
+             <br>
+            <button type="submit" class="submit-btn">Update Profile</button>
+            <br>
+        </form>
+
+        <!-- Checklist -->
+        <div class="checklist"><br>
+            <br>
+            <ul>
+                <li><del>Create Account</del></li>
+                <li><del>Update Roadmap Progress</del></li>
+                <li><del>Setup Public Profile</del></li>
+                <li>Complete your first project</li>
+                <li>Invite your Friends</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
